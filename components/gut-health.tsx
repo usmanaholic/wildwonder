@@ -12,7 +12,8 @@ function BenefitIcon({ icon, label, color }: BenefitProps) {
     <div
       className={`relative w-24 h-24 rounded-full ${color} flex items-center justify-center group transition-transform hover:scale-105`}
     >
-      <Image src="/placeholder.svg" alt={label} width={60} height={60} className="object-contain" />
+      {/* Use icon prop here for dynamic image */}
+      <Image src={`/icons/${icon}.svg`} alt={label} width={60} height={60} className="object-contain" />
       <span className="absolute -bottom-6 text-center w-full text-sm font-bold text-navy uppercase">{label}</span>
     </div>
   )
@@ -86,4 +87,3 @@ export default function GutHealth() {
     </section>
   )
 }
-
