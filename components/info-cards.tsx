@@ -24,19 +24,19 @@ function InfoCard({ image, text, label, bgColor }: InfoCardProps) {
 export default function InfoCards() {
   const cards = [
     {
-      image: "/placeholder.svg",
+      image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/a1-GxrSrBe462Y2WPRiYXPCW0Sbwf0sQF.webp",
       text: "Our products have been developed by microbiome experts to support gut health and immunity.",
       label: "LEADERSHIP",
       bgColor: "bg-[#FF4B7D]",
     },
     {
-      image: "/placeholder.svg",
+      image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/a2-bO81FdYdUFpXdM1Co0qcPv4qJRK9ox.webp",
       text: "wildwonder is founded by the loving taste of Chinese herbs my Chinese mom made for me.",
       label: "OUR STORY",
       bgColor: "bg-[#FFB800]",
     },
     {
-      image: "/placeholder.svg",
+      image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/a3-oSFdr4CYvkbs9SYdsq9hwSXVdCWwBq.webp",
       text: "5% of profits goes towards empowering women and marginalized communities.",
       label: "SOCIAL IMPACT",
       bgColor: "bg-[#4CD790]",

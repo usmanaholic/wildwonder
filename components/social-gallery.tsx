@@ -3,12 +3,12 @@ import { Button } from "@/components/ui/button"
 
 export default function SocialGallery() {
   const images = [
-    { src: "/placeholder.svg", alt: "Chess game with drinks" },
-    { src: "/placeholder.svg", alt: "Citrus cocktail preparation" },
-    { src: "/placeholder.svg", alt: "Food and drink styling" },
-    { src: "/placeholder.svg", alt: "Product pour shot" },
-    { src: "/placeholder.svg", alt: "Table setting with candles" },
-    { src: "/placeholder.svg", alt: "Cocktail closeup" },
+    { src: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/a3-oSFdr4CYvkbs9SYdsq9hwSXVdCWwBq.webp", alt: "Chess game with drinks" },
+    { src: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/a1-GxrSrBe462Y2WPRiYXPCW0Sbwf0sQF.webp", alt: "Citrus cocktail preparation" },
+    { src: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/p2-MoqxIHTJLHGWDpKAgQWAxvzab1aFbT.webp", alt: "Food and drink styling" },
+    { src: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/a3-oSFdr4CYvkbs9SYdsq9hwSXVdCWwBq.webp", alt: "Product pour shot" },
+    { src: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/a3-oSFdr4CYvkbs9SYdsq9hwSXVdCWwBq.webp", alt: "Table setting with candles" },
+    { src: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/a3-oSFdr4CYvkbs9SYdsq9hwSXVdCWwBq.webp", alt: "Cocktail closeup" },
   ]
 
   return (

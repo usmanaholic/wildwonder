@@ -18,7 +18,7 @@ function ProductCard({ title, image, price, canCount }: ProductCardProps) {
           Best Seller
         </div>
         <Image
-          src={image || "/placeholder.svg"}
+          src={image || "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/p1-qLR5QM5cTXWNDA7kvV1PjAzHArxovL.webp"}
           alt={title}
           fill
           className="object-contain group-hover:scale-105 transition-transform duration-300"
@@ -48,25 +48,25 @@ export default function ProductShowcase() {
   const products = [
     {
       title: "BANANA QUEEN",
-      image: "/placeholder.svg",
+      image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/p1-qLR5QM5cTXWNDA7kvV1PjAzHArxovL.webp",
       price: 45.45,
       canCount: 12,
     },
     {
       title: "RASPBERRY LYCHEE",
-      image: "/placeholder.svg",
+      image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/p2-MoqxIHTJLHGWDpKAgQWAxvzab1aFbT.webp",
       price: 45.45,
       canCount: 12,
     },
     {
       title: "STRAWBERRY PASSION",
-      image: "/placeholder.svg",
+      image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/p3-bZE3QLoWduPwlUP37MW16QgFjFTCR7.webp",
       price: 45.45,
       canCount: 12,
     },
     {
       title: "GUAVA ROSE",
-      image: "/placeholder.svg",
+      image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/p4-349Veou1bFRNBuKavLPpvI95vVnPGd.webp",
       price: 45.45,
       canCount: 12,
     },

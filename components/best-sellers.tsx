@@ -45,26 +45,26 @@ export default function BestSellers() {
   const products = [
     {
       title: "SHARK TANK BUNDLE",
-      image: "/placeholder.svg",
+      image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/p1-qLR5QM5cTXWNDA7kvV1PjAzHArxovL.webp",
       price: 74.4,
       originalPrice: 85.12,
       isBundle: true,
     },
     {
       title: "SAMPLER VARIETY PACK",
-      image: "/placeholder.svg",
+      image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/p2-MoqxIHTJLHGWDpKAgQWAxvzab1aFbT.webp",
       price: 42.5,
       subscriptionText: "ONE-TIME PURCHASE",
     },
     {
       title: "BOTANICAL BOUQUET",
-      image: "/placeholder.svg",
+      image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/p3-bZE3QLoWduPwlUP37MW16QgFjFTCR7.webp",
       price: 42.5,
       subscriptionText: "ONE-TIME PURCHASE",
     },
     {
       title: "RASPBERRY LYCHEE",
-      image: "/placeholder.svg",
+      image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/p4-349Veou1bFRNBuKavLPpvI95vVnPGd.webp",
       price: 45.45,
       subscriptionText: "ONE-TIME PURCHASE",
     },

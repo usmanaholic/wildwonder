@@ -2,11 +2,11 @@ import Image from "next/image"
 
 export default function FeaturedPress() {
   const pressLogos = [
-    { name: "Shark Tank", src: "/placeholder.svg" },
-    { name: "Forbes", src: "/placeholder.svg" },
-    { name: "Today", src: "/placeholder.svg" },
-    { name: "PopSugar", src: "/placeholder.svg" },
-    { name: "Well+Good", src: "/placeholder.svg" },
+    { name: "Shark Tank", src: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/Shark_Tank_Logo_180x-c7AdYBPWIamuM4J6d3kbMghe3yhWQr.avif" },
+    { name: "Forbes", src: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/TodayShow_Logo_180x-73AZIytRjXOcJhyuTU7RnOlHKPV3i9.avif" },
+    { name: "Today", src: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/OprahDaily_Logo_ab4a467c-8f8b-4f59-ba3d-7472d448ef00_180x-eNGhjJWylSaSAdRp0Q10LyxIiJTEx2.avif" },
+    { name: "PopSugar", src: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/Screen-Shot-2022-07-02-at-8.14.41-PM_360x-QRcnnBm3fjOQQK6x1mbDl9pOhGSq79.avif" },
+    { name: "Well+Good", src: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/Screen-Shot-2022-07-02-at-8.14.41-PM_360x-QRcnnBm3fjOQQK6x1mbDl9pOhGSq79.avif" },
   ]
 
   return (

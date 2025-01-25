@@ -13,7 +13,7 @@ const testimonials: TestimonialProps[] = [
     quote:
       "I love that wildwonder promotes gut health, has clean ingredients, and the flavors are absolutely delicious. Customer for life!!!",
     author: "HILL",
-    image: "/placeholder.svg",
+    image: "https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/s2-JO7qDDyJ26miqc44hVvksVlmHHbEmF.webp",
   },
   // Add more testimonials as needed
 ]
@@ -32,7 +32,7 @@ export default function SharkTankSection() {
             <span className="text-[#4169E1]">TANK</span>
           </h2>
           <div className="relative aspect-video w-full">
-            <Image src="/placeholder.svg" alt="Wildwonder on Shark Tank" fill className="object-cover rounded-lg" />
+            <Image src="https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/s1-zayijhp00WDXR5EB3KZFJzL9BXEBKI.webp" alt="Wildwonder on Shark Tank" fill className="object-cover rounded-lg" />
           </div>
         </div>
 
