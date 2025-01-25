@@ -2,18 +2,17 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 interface BenefitProps {
-  icon: string
   label: string
   color: string
 }
 
-function BenefitIcon({ icon, label, color }: BenefitProps) {
+function BenefitIcon({ label, color }: BenefitProps) {
   return (
     <div
       className={`relative w-24 h-24 rounded-full ${color} flex items-center justify-center group transition-transform hover:scale-105`}
     >
-      {/* Use icon prop here for dynamic image */}
-      <Image src={`/icons/${icon}.svg`} alt={label} width={60} height={60} className="object-contain" />
+      {/* Use the provided image URL */}
+      <Image src="https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/Component-1-_-1_df82cfec-c240-4940-a55d-7fb2606d0cf1_600x2-HlRtazpZp6Rc9VAzttlcasFftCZXLW.png" alt={label} width={60} height={60} className="object-contain" />
       <span className="absolute -bottom-6 text-center w-full text-sm font-bold text-navy uppercase">{label}</span>
     </div>
   )
@@ -21,11 +20,11 @@ function BenefitIcon({ icon, label, color }: BenefitProps) {
 
 export default function GutHealth() {
   const benefits = [
-    { icon: "digestion", label: "Digestion", color: "bg-[#FFA500]" },
-    { icon: "immunity", label: "Immunity", color: "bg-[#C8E05C]" },
-    { icon: "mood", label: "Mood", color: "bg-[#FFB6C1]" },
-    { icon: "calmness", label: "Calmness", color: "bg-[#98D8D8]" },
-    { icon: "brain-health", label: "Brain Health", color: "bg-[#FF9B76]" },
+    { label: "Digestion", color: "bg-[#FFA500]" },
+    { label: "Immunity", color: "bg-[#C8E05C]" },
+    { label: "Mood", color: "bg-[#FFB6C1]" },
+    { label: "Calmness", color: "bg-[#98D8D8]" },
+    { label: "Brain Health", color: "bg-[#FF9B76]" },
   ]
 
   return (
@@ -43,7 +42,7 @@ export default function GutHealth() {
             </Button>
             <div className="flex flex-wrap gap-8 mt-8">
               {benefits.map((benefit) => (
-                <BenefitIcon key={benefit.label} icon={benefit.icon} label={benefit.label} color={benefit.color} />
+                <BenefitIcon key={benefit.label} label={benefit.label} color={benefit.color} />
               ))}
             </div>
           </div>
