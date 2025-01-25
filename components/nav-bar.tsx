@@ -16,15 +16,9 @@ export default function NavBar() {
           </Link>
         </div>
 
-        <Link href="/" className="absolute left-1/2 transform -translate-x-1/2">
-          <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/web1.PNG-mU2JkXkXXB19IzV8mGpNGSUPmLvuYD.png"
-            alt="wildwonder"
-            width={180}
-            height={40}
-            className="h-8 w-auto"
-          />
-        </Link>
+        <Link href="/" className="absolute left-1/2 transform -translate-x-1/2" style={{ color: "white" }}>
+  <span className="text-2xl font-bold text-center">wildwonder</span>
+</Link>
 
         <div className="flex items-center space-x-8">
           <div className="flex items-center">

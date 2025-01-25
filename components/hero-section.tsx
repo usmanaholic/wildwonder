@@ -21,7 +21,7 @@ export default function HeroSection() {
         <div className="absolute right-0 top-0 w-1/2 h-full hidden md:block">
           {/* Product images would go here - using placeholder for demo */}
           <div className="relative h-full">
-            <Image src="/image1" alt="Product showcase" fill className="object-contain" />
+            <Image src="https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/image1-removebg-preview-k5wCczpu6PEwPYyO5J9atfSKxZG9tf.png" alt="Product showcase" fill className="object-contain" />
           </div>
         </div>
       </div>

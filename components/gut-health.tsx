@@ -49,13 +49,13 @@ export default function GutHealth() {
 
           <div className="relative">
             <div className="relative aspect-square">
-              <Image src="/placeholder.svg" alt="Product pour" fill className="object-contain" />
+              <Image src="https://tqu0ji92zyq2wxex.public.blob.vercel-storage.com/image2-removebg-preview-iujO55GcKb6YLCd0IGkFsTJvZrKbFA.png" alt="Product pour" fill className="object-contain" />
               <div className="absolute left-0 top-1/4 transform -translate-x-1/2">
-                <div className="bg-navy text-white px-4 py-2 rounded-full whitespace-nowrap">5G PREBIOTIC FIBER</div>
+                <div className="bg-navy text-white px-4 py-2 rounded-full whitespace-nowrap"></div>
               </div>
               <div className="absolute right-0 top-1/2 transform translate-x-1/2">
                 <div className="bg-navy text-white px-4 py-2 rounded-full whitespace-nowrap">
-                  1 BILLION LIVE PROBIOTICS
+                 
                 </div>
               </div>
             </div>
